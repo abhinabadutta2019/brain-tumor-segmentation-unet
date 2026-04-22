@@ -1,8 +1,12 @@
 # Brain Tumor Segmentation (U-Net)
 
-## Results
+This project implements a deep learning pipeline for brain tumor segmentation using the BraTS 2020 dataset.
 
-### 📊 Model Performance
+---
+
+## 📊 Results
+
+### Model Performance
 
 ![Performance](https://github.com/user-attachments/assets/54131cac-6fb5-49c3-8848-c1825e214706)
 
@@ -18,7 +22,24 @@
 
 ---
 
-### 📝 Explanation
+## 📝 Explanation
+
 - Left: Input MRI (FLAIR)
 - Middle: Ground Truth (Tumor mask)
 - Right: Model Prediction
+
+---
+
+## ⚙️ Tech Stack
+
+- Python, PyTorch
+- U-Net (ResNet18 encoder)
+- MONAI, NumPy
+
+---
+
+## 📌 Key Highlights
+
+- 5-fold cross-validation (patient-level)
+- Evaluated using Dice Score
+- Compared against baseline segmentation
